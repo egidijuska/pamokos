@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.pirm-eile {
+  height: 40px;
+}
+.cs {
+  background-color: grey;
+  text-align: center;
+}
+td {
+  padding: 5px;
+}

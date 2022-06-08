@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment form</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Payment form</h1>
+      <p>Required fields are followed by *.</p>
+      <h2>Contact information</h2>
+      <form action="">
+        <label for="title">Title</label>
+        <div class="mister">
+          <input type="radio" id="mister" name="mister" value="mister />
+          <label for="mister">Mister</label>
+          <input type="radio" id="miss" name="miss" value="miss" />
+        <label for="miss">Miss</label>
+    </div>
+        <label for="name">Name: *</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="write your name"
+          required
+          autofocus
+        /> <br>
+        <label for="email">Email: *</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="write your email"
+          required
+        /> <br>
+        <label for="pass">Pasword: *</label>
+        <input
+          type="password"
+          name="pass
+          id="
+          pass
+          placeholder="write your password"
+          required
+        />
+        <h2>Payment information</h2>
+        <label for="cards">Card type:</label>
+        <select name="cards" id="cards">
+          <option value="visa">Visa</option>
+          <option value="masterdard">Mastercard</option>
+          <option value="maestro">Maestro</option>
+          <option value="vip">VIP</option>
+        </select> <br>
+        <label for="cardnumber">Card number: *</label>
+        <input
+          type="cardnumber"
+          name="cardnumber"
+          id="cardnumber"
+          placeholder="write your card number"
+          required
+        /> <br>
+        <label for="exdate">Expiration date: *</label>
+        <input
+          type="exdate"
+          name="exdate"
+          id="exdate"
+          placeholder="mm/yy"
+          required
+        />         <p> <h6><i> formated as mm/yy </i></h6></p>
+        <input type="submit" value="Validate the payment" />
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  background-color: #a0a0a0;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem auto;
+  font-family: "Nunito Sans";
+  text-align: center;
+  background-color: white;
+  max-width: 900px;
+}
+
+main div {
+  width: 25%;
+}
+
+.price {
+  background-color: #f4f6fc;
+  border-radius: 30px;
+  padding: 0.3rem;
+  margin: 1rem;
+}
+
+p {
+  padding: 0 1rem;
+}
+
+span {
+  font-size: 200%;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  color: #303ca5;
+  border-color: #303ca5;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.belowTitle,
+.belowButton,
+.whatsIncluded {
+  font-size: 70%;
+}
+
+.belowButton,
+.whatsIncluded {
+  color: #73829e;
+}
+
+.belowButton {
+  padding-bottom: 1rem;
+}
+
+.included {
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+}
+
+.allFeatures {
+  font-weight: bold;
+}
+
+.comment {
+  font-size: 70%;
+  color: #73829e;
+}
+
+.column {
+  border: 1px solid #a0a0a0;
+}
+/*# sourceMappingURL=style.css.map */

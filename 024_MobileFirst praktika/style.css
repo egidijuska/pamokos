@@ -1,0 +1,59 @@
+/* @import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900"); */
+* {
+  padding: 0.5rem;
+}
+body {
+  /* font-family: Source Sans Pro; */
+  color: #585858;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.75;
+}
+header img {
+  height: 2.2rem;
+}
+header h1 {
+  font-size: 36pt;
+  font-weight: 600;
+  letter-spacing: -0.15rem;
+  line-height: 1.35;
+}
+header p {
+  font-size: 14pt;
+}
+.didziosiosRaides {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 13pt;
+  margin-left: 0.9rem;
+  letter-spacing: 0.4rem;
+  color: #585858;
+}
+.titulinisLogasIrUzrasas {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* box-sizing: border-box; */
+}
+/* section {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+} */
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+
+}
+.item{
+    background-color: gray;
+    margin: 0.5rem ;
+    /* padding: 0.5rem; */
+    width: 15rem;
+    height: 15rem;
+}

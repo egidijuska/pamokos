@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="name">Name </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Write your name"
+        />
+      </div>
+      <div>
+        <div>
+          <label for="pass">Password</label>
+          <input type="password" placeholder="Write your password" />
+        </div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Write your email"
+        />
+      </div>
+      <label for="email">Message</label>
+      <div>
+        <textarea
+          name="msg"
+          id="msg"
+          cols="30"
+          rows="10"
+          placeholder="Write your message"
+        ></textarea>
+      </div>
+      <div>
+        <label for="">Search</label>
+        <input type="search" />
+      </div>
+      <div>
+        <label for="url">Url</label>
+        <input type="url" />
+      </div>
+      <div>
+        <label for="fruits">What is your favorite fruit?</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label for="banana">Banana</label>
+        <input
+          type="checkbox"
+          required
+          id="banana"
+          value="banana"
+          name="fruits"
+        />
+      </div>
+      <div>
+        <label for="apple" id="apple" name="fruits">Apple</label>
+        <input type="radio" id="apple" name="fruits" value="apple" />
+        <label for="pear" id="pear" name="fruits">Pear</label>
+        <input type="radio" id="pear" name="fruits" value="pear" />
+      </div>
+      <div>
+        <button type="reset">Reset values</button>
+        <button type="submit">Submit values</button>
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
