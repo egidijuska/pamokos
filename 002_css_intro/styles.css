@@ -1,0 +1,12 @@
+.testing-class {
+  color: blueviolet;
+  background-color: rgb(158, 158, 158);
+  width: 500px;
+  padding: 20px;
+  border: 5px dotted red;
+  border-radius: 5%;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin: auto
+

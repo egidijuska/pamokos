@@ -1,0 +1,18 @@
+.tevinis {
+  display: flex;
+}
+.bendra {
+  display: inline-block;
+  width: 49%;
+  padding: 0;
+  margin: 0;
+}
+.desine {
+  border: 2px solid cornflowerblue;
+}
+.kaire img {
+  width: 30%;
+}
+.desines img {
+  width: 100%;
+}
